@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: junit.SeleniumPageObjectLiveTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.802 s <<< FAILURE! - in junit.SeleniumPageObjectLiveTest
-getStartedForFree(junit.SeleniumPageObjectLiveTest)  Time elapsed: 3.261 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[www.wrike.com]> but was:<[Your online project management software - Wrike]>
-	at junit.SeleniumPageObjectLiveTest.getStartedForFree(SeleniumPageObjectLiveTest.java:40)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.58 s - in junit.SeleniumPageObjectLiveTest

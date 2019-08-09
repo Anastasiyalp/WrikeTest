@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cffd694-2cb6-44ec-b49e-728463ac1421" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.6.0/bin/allure" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/bin/allure" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.allure/allure-2.6.0/bin/allure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/bin/allure.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/SeleniumConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/SeleniumConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ResendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ResendPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit/SeleniumPageObjectLiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit/SeleniumPageObjectLiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SeleniumConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/SeleniumConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/ResendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ResendPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-junit.SeleniumPageObjectLiveTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-junit.SeleniumPageObjectLiveTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junit.SeleniumPageObjectLiveTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junit.SeleniumPageObjectLiveTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/junit/SeleniumPageObjectLiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit/SeleniumPageObjectLiveTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +27,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>title</find>
-      <find>wait</find>
-      <find>1.8</find>
-      <find>1.7</find>
-      <find>surefire</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,8 +129,16 @@
       <workItem from="1565339141168" duration="125000" />
       <workItem from="1565339293294" duration="2426000" />
       <workItem from="1565342249934" duration="307000" />
-      <workItem from="1565342807060" duration="8193000" />
+      <workItem from="1565342807060" duration="8778000" />
     </task>
+    <task id="LOCAL-00001" summary="Final version">
+      <created>1565355343062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565355343062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
