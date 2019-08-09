@@ -25,7 +25,10 @@ public class SeleniumConfig {
     }
 
     static {
-        System.setProperty("webdriver.chrome.driver", "." + File.separator + "Drivers" + File.separator + "chromedriver.exe");
+        String path =  "." + File.separator + "Drivers" + File.separator + "chromedriver";
+        if(System.getProperty("os.name").toLowerCase().indexOf( "win" ) >= 0)
+            path += ".exe";
+        System.setProperty("webdriver.chrome.driver", path);
     }
 
     public void close() {

@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ResendPage {
     private SeleniumConfig config;
-    public String title;
 
     @FindBy(xpath = "/html/body/div[1]/main/div/div//div/form/button")
     WebElement submitResults;
@@ -25,15 +24,10 @@ public class ResendPage {
 
     public ResendPage(SeleniumConfig config) {
         this.config = config;
-        this.title = config.getTitle();
     }
 
     public String getCurrentUrl(){
         return config.getCurrentUrl();
-    }
-
-    public String getPageTitle() {
-        return title;
     }
 
     public void chooseInterest(int number) {
@@ -61,7 +55,7 @@ public class ResendPage {
         config.clickElement(submitResults);
     }
 
-    public boolean windowChooseInvisibile() {
+    public boolean windowChooserInvisibile() {
         return ExpectedConditions.invisibilityOf(windowChoose).apply(config.getDriver());
     }
 

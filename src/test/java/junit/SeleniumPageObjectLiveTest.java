@@ -1,6 +1,8 @@
 package junit;
 
 import config.SeleniumConfig;
+import io.qameta.allure.Story;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +13,7 @@ import java.util.Random;
 
 import static org.junit.Assert.*;
 
+@Story("TS")
 public class SeleniumPageObjectLiveTest {
 
     private SeleniumConfig config;
@@ -30,7 +33,8 @@ public class SeleniumPageObjectLiveTest {
     }
 
     @Test
-    public void givenHomePage_whenNavigate_thenTitleMatch() {
+    @DisplayName("Check resend page")
+    public void getStartedForFree() {
         homePage.navigate();
 
         assertEquals(homePage.getPageTitle(), "Your online project management software - Wrike");
@@ -46,7 +50,7 @@ public class SeleniumPageObjectLiveTest {
         resendPage.chooseFollow(new Random().nextInt(3) + 1);
         resendPage.submitResults();
 
-        assertFalse(resendPage.windowChooseInvisibile());
+        assertFalse(resendPage.windowChooserInvisibile());
 
         assertEquals(resendPage.thereContainsTwitter(), "dofollow");
 

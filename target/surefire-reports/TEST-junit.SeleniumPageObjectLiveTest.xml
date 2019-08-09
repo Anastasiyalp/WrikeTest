@@ -1,68 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="junit.SeleniumPageObjectLiveTest" time="51.665" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="junit.SeleniumPageObjectLiveTest" time="3.802" tests="1" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.3+7"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Nastya\IdeaProjects\WrikeTest"/>
-    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
-    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/anastasiya/IdeaProjects/WrikeTest/target/test-classes:/home/anastasiya/IdeaProjects/WrikeTest/target/classes:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/anastasiya/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/anastasiya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/anastasiya/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/anastasiya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/anastasiya/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/anastasiya/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/anastasiya/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/anastasiya/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/anastasiya/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/anastasiya/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/anastasiya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/anastasiya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/anastasiya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/anastasiya/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/anastasiya/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/anastasiya/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/anastasiya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure-junit4/2.0-BETA13/allure-junit4-2.0-BETA13.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure-java-commons/2.0-BETA13/allure-java-commons-2.0-BETA13.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/home/anastasiya/.m2/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/home/anastasiya/.m2/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/home/anastasiya/.m2/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/home/anastasiya/.m2/repository/io/github/bonigarcia/webdrivermanager/1.4.9/webdrivermanager-1.4.9.jar:/home/anastasiya/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/home/anastasiya/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/anastasiya/.m2/repository/com/typesafe/config/1.2.1/config-1.2.1.jar:/home/anastasiya/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/anastasiya/.m2/repository/org/rauschig/jarchivelib/0.7.1/jarchivelib-0.7.1.jar:/home/anastasiya/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/anastasiya/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.20/htmlunit-driver-2.20.jar:/home/anastasiya/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.20/htmlunit-2.20.jar:/home/anastasiya/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/anastasiya/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/anastasiya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/anastasiya/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/home/anastasiya/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/anastasiya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/anastasiya/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/home/anastasiya/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/home/anastasiya/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/anastasiya/.m2/repository/com/codeborne/phantomjsdriver/1.2.1/phantomjsdriver-1.2.1.jar:/home/anastasiya/.m2/repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar:/home/anastasiya/.m2/repository/com/tngtech/java/junit-dataprovider/1.10.0/junit-dataprovider-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Nastya\IdeaProjects\WrikeTest"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="11.0.3+7"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Nastya\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files (x86)\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin;C:\PROGRA~2\Borland\CBUILD~1\Bin;C:\PROGRA~2\Borland\CBUILD~1\Projects\Bpl;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files (x86)\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Nastya\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\CLion 2019.2\bin;;."/>
-    <property name="maven.conf" value="C:\Program Files (x86)\apache-maven-3.6.1\bin\../conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files (x86)\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Nastya"/>
-    <property name="user.timezone" value="Europe/Moscow"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1251"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="Nastya"/>
-    <property name="java.class.path" value="C:\Program Files (x86)\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/anastasiya/IdeaProjects/WrikeTest/target/surefire/surefirebooter7580457678609831952.jar /home/anastasiya/IdeaProjects/WrikeTest/target/surefire 2019-08-09T15-35-24_558-jvmRun1 surefire5016014378712150291tmp surefire_06113409982502603966tmp"/>
+    <property name="surefire.test.class.path" value="/home/anastasiya/IdeaProjects/WrikeTest/target/test-classes:/home/anastasiya/IdeaProjects/WrikeTest/target/classes:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/anastasiya/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/anastasiya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/anastasiya/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/anastasiya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/anastasiya/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/anastasiya/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/anastasiya/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/anastasiya/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/anastasiya/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/anastasiya/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/anastasiya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/anastasiya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/anastasiya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/anastasiya/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/anastasiya/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/anastasiya/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/anastasiya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure-junit4/2.0-BETA13/allure-junit4-2.0-BETA13.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure-java-commons/2.0-BETA13/allure-java-commons-2.0-BETA13.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/home/anastasiya/.m2/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/home/anastasiya/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/home/anastasiya/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/home/anastasiya/.m2/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/home/anastasiya/.m2/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/home/anastasiya/.m2/repository/io/github/bonigarcia/webdrivermanager/1.4.9/webdrivermanager-1.4.9.jar:/home/anastasiya/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/home/anastasiya/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/anastasiya/.m2/repository/com/typesafe/config/1.2.1/config-1.2.1.jar:/home/anastasiya/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/anastasiya/.m2/repository/org/rauschig/jarchivelib/0.7.1/jarchivelib-0.7.1.jar:/home/anastasiya/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/anastasiya/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/home/anastasiya/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.20/htmlunit-driver-2.20.jar:/home/anastasiya/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.20/htmlunit-2.20.jar:/home/anastasiya/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/anastasiya/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/anastasiya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/anastasiya/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/home/anastasiya/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/anastasiya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/anastasiya/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/home/anastasiya/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.18/cssparser-0.9.18.jar:/home/anastasiya/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.15.v20160210/websocket-client-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.15.v20160210/websocket-common-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.15.v20160210/websocket-api-9.2.15.v20160210.jar:/home/anastasiya/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/anastasiya/.m2/repository/com/codeborne/phantomjsdriver/1.2.1/phantomjsdriver-1.2.1.jar:/home/anastasiya/.m2/repository/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar:/home/anastasiya/.m2/repository/com/tngtech/java/junit-dataprovider/1.10.0/junit-dataprovider-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="/home/anastasiya/IdeaProjects/WrikeTest/target/allure-results"/>
+    <property name="user.home" value="/home/anastasiya"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="basedir" value="/home/anastasiya/IdeaProjects/WrikeTest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/anastasiya/IdeaProjects/WrikeTest/target/surefire/surefirebooter7580457678609831952.jar:/home/anastasiya/.m2/repository//org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="anastasiya"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-55-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/anastasiya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="/home/anastasiya/IdeaProjects/WrikeTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.3"/>
-    <property name="java.vendor" value="AdoptOpenJDK"/>
-    <property name="sun.stderr.encoding" value="cp866"/>
-    <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.6.1\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2019-04-16"/>
-    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="AdoptOpenJDK"/>
-    <property name="sun.stdout.encoding" value="cp866"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="givenHomePage_whenNavigate_thenTitleMatch" classname="junit.SeleniumPageObjectLiveTest" time="51.116"/>
+  <testcase name="getStartedForFree" classname="junit.SeleniumPageObjectLiveTest" time="3.261">
+    <failure message="expected:&lt;[www.wrike.com]&gt; but was:&lt;[Your online project management software - Wrike]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[www.wrike.com]> but was:<[Your online project management software - Wrike]>
+	at junit.SeleniumPageObjectLiveTest.getStartedForFree(SeleniumPageObjectLiveTest.java:40)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 27526
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+авг 09, 2019 3:35:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>
